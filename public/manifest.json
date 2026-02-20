@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "version": "1.4.0",
+  "name": "Soundmark for SoundCloud",
+  "description": "Create and manage SoundCloud timestamps.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "downloads",
+    "scripting"
+  ],
+  "host_permissions": ["*://*.soundcloud.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
